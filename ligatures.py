@@ -51,10 +51,10 @@ ligatures = [
     #     'firacode_ligature_name': 'f_t.liga',
     # },
     ## Programming ligatures begin here.
-    {   # &&
-        'chars': ['ampersand', 'ampersand'],
-        'firacode_ligature_name': 'ampersand_ampersand.liga',
-    },
+    # {   # &&
+    #     'chars': ['ampersand', 'ampersand'],
+    #     'firacode_ligature_name': 'ampersand_ampersand.liga',
+    # },
     {   # ^=
         'chars': ['asciicircum', 'equal'],
         'firacode_ligature_name': 'asciicircum_equal.liga',
@@ -83,26 +83,26 @@ ligatures = [
         'chars': ['asciitilde', 'hyphen'],
         'firacode_ligature_name': 'asciitilde_hyphen.liga',
     },
-    {   # **
-        'chars': ['asterisk', 'asterisk'],
-        'firacode_ligature_name': 'asterisk_asterisk.liga',
-    },
-    {   # ***
-        'chars': ['asterisk', 'asterisk', 'asterisk'],
-        'firacode_ligature_name': 'asterisk_asterisk_asterisk.liga',
-    },
-    {   # *>
-        'chars': ['asterisk', 'greater'],
-        'firacode_ligature_name': 'asterisk_greater.liga',
-    },
-    {   # */
-        'chars': ['asterisk', 'slash'],
-        'firacode_ligature_name': 'asterisk_slash.liga',
-    },
-    {   # \/
-        'chars': ['backslash', 'slash'],
-        'firacode_ligature_name': 'backslash_slash.liga',
-    },
+    # {   # **
+    #     'chars': ['asterisk', 'asterisk'],
+    #     'firacode_ligature_name': 'asterisk_asterisk.liga',
+    # },
+    # {   # ***
+    #     'chars': ['asterisk', 'asterisk', 'asterisk'],
+    #     'firacode_ligature_name': 'asterisk_asterisk_asterisk.liga',
+    # },
+    # {   # *>
+    #     'chars': ['asterisk', 'greater'],
+    #     'firacode_ligature_name': 'asterisk_greater.liga',
+    # },
+    # {   # */
+    #     'chars': ['asterisk', 'slash'],
+    #     'firacode_ligature_name': 'asterisk_slash.liga',
+    # },
+    # {   # \/
+    #     'chars': ['backslash', 'slash'],
+    #     'firacode_ligature_name': 'backslash_slash.liga',
+    # },
     {   # ||
         'chars': ['bar', 'bar'],
         'firacode_ligature_name': 'bar_bar.liga',
@@ -179,18 +179,18 @@ ligatures = [
         'chars': ['colon', 'equal'],
         'firacode_ligature_name': 'colon_equal.liga',
     },
-    {   # :>
-        'chars': ['colon', 'greater'],
-        'firacode_ligature_name': 'colon_greater.liga',
-    },
-    {   # :<
-        'chars': ['colon', 'less'],
-        'firacode_ligature_name': 'colon_less.liga',
-    },
-    {   # $>
-        'chars': ['dollar', 'greater'],
-        'firacode_ligature_name': 'dollar_greater.liga',
-    },
+    # {   # :>
+    #     'chars': ['colon', 'greater'],
+    #     'firacode_ligature_name': 'colon_greater.liga',
+    # },
+    # {   # :<
+    #     'chars': ['colon', 'less'],
+    #     'firacode_ligature_name': 'colon_less.liga',
+    # },
+    # {   # $>
+    #     'chars': ['dollar', 'greater'],
+    #     'firacode_ligature_name': 'dollar_greater.liga',
+    # },
     {   # =:=
         'chars': ['equal', 'colon', 'equal'],
         'firacode_ligature_name': 'equal_colon_equal.liga',
@@ -243,30 +243,30 @@ ligatures = [
         'chars': ['exclam', 'exclam', 'period'],
         'firacode_ligature_name': 'exclam_exclam_period.liga',
     },
-    {   # >:
-        'chars': ['greater', 'colon'],
-        'firacode_ligature_name': 'greater_colon.liga',
-    },
-    {   # >=
-        'chars': ['greater', 'equal'],
-        'firacode_ligature_name': 'greater_equal.liga',
-    },
+    # {   # >:
+    #     'chars': ['greater', 'colon'],
+    #     'firacode_ligature_name': 'greater_colon.liga',
+    # },
+    # {   # >=
+    #     'chars': ['greater', 'equal'],
+    #     'firacode_ligature_name': 'greater_equal.liga',
+    # },
     {   # >=>
         'chars': ['greater', 'equal', 'greater'],
         'firacode_ligature_name': 'greater_equal_greater.liga',
     },
-    {   # >>
-        'chars': ['greater', 'greater'],
-        'firacode_ligature_name': 'greater_greater.liga',
-    },
+    # {   # >>
+    #     'chars': ['greater', 'greater'],
+    #     'firacode_ligature_name': 'greater_greater.liga',
+    # },
     {   # >>=
         'chars': ['greater', 'greater', 'equal'],
         'firacode_ligature_name': 'greater_greater_equal.liga',
     },
-    {   # >>>
-        'chars': ['greater', 'greater', 'greater'],
-        'firacode_ligature_name': 'greater_greater_greater.liga',
-    },
+    # {   # >>>
+    #     'chars': ['greater', 'greater', 'greater'],
+    #     'firacode_ligature_name': 'greater_greater_greater.liga',
+    # },
     {   # >>-
         'chars': ['greater', 'greater', 'hyphen'],
         'firacode_ligature_name': 'greater_greater_hyphen.liga',
@@ -327,14 +327,14 @@ ligatures = [
         'chars': ['less', 'asciitilde', 'greater'],
         'firacode_ligature_name': 'less_asciitilde_greater.liga',
     },
-    {   # <*
-        'chars': ['less', 'asterisk'],
-        'firacode_ligature_name': 'less_asterisk.liga',
-    },
-    {   # <*>
-        'chars': ['less', 'asterisk', 'greater'],
-        'firacode_ligature_name': 'less_asterisk_greater.liga',
-    },
+    # {   # <*
+    #     'chars': ['less', 'asterisk'],
+    #     'firacode_ligature_name': 'less_asterisk.liga',
+    # },
+    # {   # <*>
+    #     'chars': ['less', 'asterisk', 'greater'],
+    #     'firacode_ligature_name': 'less_asterisk_greater.liga',
+    # },
     {   # <|
         'chars': ['less', 'bar'],
         'firacode_ligature_name': 'less_bar.liga',
@@ -351,22 +351,22 @@ ligatures = [
         'chars': ['less', 'bar', 'greater'],
         'firacode_ligature_name': 'less_bar_greater.liga',
     },
-    {   # <:
-        'chars': ['less', 'colon'],
-        'firacode_ligature_name': 'less_colon.liga',
-    },
-    {   # <$
-        'chars': ['less', 'dollar'],
-        'firacode_ligature_name': 'less_dollar.liga',
-    },
-    {   # <$>
-        'chars': ['less', 'dollar', 'greater'],
-        'firacode_ligature_name': 'less_dollar_greater.liga',
-    },
-    {   # <=
-        'chars': ['less', 'equal'],
-        'firacode_ligature_name': 'less_equal.liga',
-    },
+    # {   # <:
+    #     'chars': ['less', 'colon'],
+    #     'firacode_ligature_name': 'less_colon.liga',
+    # },
+    # {   # <$
+    #     'chars': ['less', 'dollar'],
+    #     'firacode_ligature_name': 'less_dollar.liga',
+    # },
+    # {   # <$>
+    #     'chars': ['less', 'dollar', 'greater'],
+    #     'firacode_ligature_name': 'less_dollar_greater.liga',
+    # },
+    # {   # <=
+    #     'chars': ['less', 'equal'],
+    #     'firacode_ligature_name': 'less_equal.liga',
+    # },
     {   # <=|
         'chars': ['less', 'equal', 'bar'],
         'firacode_ligature_name': 'less_equal_bar.liga',
@@ -391,10 +391,10 @@ ligatures = [
         'chars': ['less', 'exclam', 'hyphen', 'hyphen'],
         'firacode_ligature_name': 'less_exclam_hyphen_hyphen.liga',
     },
-    {   # <>
-        'chars': ['less', 'greater'],
-        'firacode_ligature_name': 'less_greater.liga',
-    },
+    # {   # <>
+    #     'chars': ['less', 'greater'],
+    #     'firacode_ligature_name': 'less_greater.liga',
+    # },
     {   # <-
         'chars': ['less', 'hyphen'],
         'firacode_ligature_name': 'less_hyphen.liga',
@@ -415,10 +415,10 @@ ligatures = [
         'chars': ['less', 'hyphen', 'less'],
         'firacode_ligature_name': 'less_hyphen_less.liga',
     },
-    {   # <<
-        'chars': ['less', 'less'],
-        'firacode_ligature_name': 'less_less.liga',
-    },
+    # {   # <<
+    #     'chars': ['less', 'less'],
+    #     'firacode_ligature_name': 'less_less.liga',
+    # },
     {   # <<=
         'chars': ['less', 'less', 'equal'],
         'firacode_ligature_name': 'less_less_equal.liga',
@@ -431,26 +431,26 @@ ligatures = [
         'chars': ['less', 'less', 'hyphen', 'greater', 'greater'],
         'firacode_ligature_name': 'less_less_hyphen_greater_greater.liga',
     },
-    {   # <<<
-        'chars': ['less', 'less', 'less'],
-        'firacode_ligature_name': 'less_less_less.liga',
-    },
-    {   # <+
-        'chars': ['less', 'plus'],
-        'firacode_ligature_name': 'less_plus.liga',
-    },
-    {   # <+>
-        'chars': ['less', 'plus', 'greater'],
-        'firacode_ligature_name': 'less_plus_greater.liga',
-    },
-    {   # </
-        'chars': ['less', 'slash'],
-        'firacode_ligature_name': 'less_slash.liga',
-    },
-    {   # </>
-        'chars': ['less', 'slash', 'greater'],
-        'firacode_ligature_name': 'less_slash_greater.liga',
-    },
+    # {   # <<<
+    #     'chars': ['less', 'less', 'less'],
+    #     'firacode_ligature_name': 'less_less_less.liga',
+    # },
+    # {   # <+
+    #     'chars': ['less', 'plus'],
+    #     'firacode_ligature_name': 'less_plus.liga',
+    # },
+    # {   # <+>
+    #     'chars': ['less', 'plus', 'greater'],
+    #     'firacode_ligature_name': 'less_plus_greater.liga',
+    # },
+    # {   # </
+    #     'chars': ['less', 'slash'],
+    #     'firacode_ligature_name': 'less_slash.liga',
+    # },
+    # {   # </>
+    #     'chars': ['less', 'slash', 'greater'],
+    #     'firacode_ligature_name': 'less_slash_greater.liga',
+    # },
     {   # #{
         'chars': ['numbersign', 'braceleft'],
         'firacode_ligature_name': 'numbersign_braceleft.liga',
@@ -519,10 +519,10 @@ ligatures = [
         'chars': ['period', 'period', 'equal'],
         'firacode_ligature_name': 'period_period_equal.liga',
     },
-    {   # ..<
-        'chars': ['period', 'period', 'less'],
-        'firacode_ligature_name': 'period_period_less.liga',
-    },
+    # {   # ..<
+    #     'chars': ['period', 'period', 'less'],
+    #     'firacode_ligature_name': 'period_period_less.liga',
+    # },
     {   # ...
         'chars': ['period', 'period', 'period'],
         'firacode_ligature_name': 'period_period_period.liga',
@@ -531,10 +531,10 @@ ligatures = [
         'chars': ['period', 'question'],
         'firacode_ligature_name': 'period_question.liga',
     },
-    {   # +>
-        'chars': ['plus', 'greater'],
-        'firacode_ligature_name': 'plus_greater.liga',
-    },
+    # {   # +>
+    #     'chars': ['plus', 'greater'],
+    #     'firacode_ligature_name': 'plus_greater.liga',
+    # },
     {   # ++
         'chars': ['plus', 'plus'],
         'firacode_ligature_name': 'plus_plus.liga',
@@ -563,14 +563,14 @@ ligatures = [
         'chars': ['semicolon', 'semicolon'],
         'firacode_ligature_name': 'semicolon_semicolon.liga',
     },
-    {   # /*
-        'chars': ['slash', 'asterisk'],
-        'firacode_ligature_name': 'slash_asterisk.liga',
-    },
-    {   # /\
-        'chars': ['slash', 'backslash'],
-        'firacode_ligature_name': 'slash_backslash.liga',
-    },
+    # {   # /*
+    #     'chars': ['slash', 'asterisk'],
+    #     'firacode_ligature_name': 'slash_asterisk.liga',
+    # },
+    # {   # /\
+    #     'chars': ['slash', 'backslash'],
+    #     'firacode_ligature_name': 'slash_backslash.liga',
+    # },
     {   # /=
         'chars': ['slash', 'equal'],
         'firacode_ligature_name': 'slash_equal.liga',
@@ -579,10 +579,10 @@ ligatures = [
         'chars': ['slash', 'equal', 'equal'],
         'firacode_ligature_name': 'slash_equal_equal.liga',
     },
-    {   # />
-        'chars': ['slash', 'greater'],
-        'firacode_ligature_name': 'slash_greater.liga',
-    },
+    # {   # />
+    #     'chars': ['slash', 'greater'],
+    #     'firacode_ligature_name': 'slash_greater.liga',
+    # },
     {   # //
         'chars': ['slash', 'slash'],
         'firacode_ligature_name': 'slash_slash.liga',
